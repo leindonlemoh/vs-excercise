@@ -1,0 +1,14 @@
+{
+  "name": "vs-proj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+ "scripts": {
+    "dev": "concurrently \"npm run dev --prefix vs-ce\" \"node server/index.js\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}
