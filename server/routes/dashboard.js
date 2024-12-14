@@ -5,6 +5,7 @@ const studioDashboardController = require("../controllers/studioDashboardControl
 
 // router.post("/addPerformance/:id", studioPerformanceDataController.addPerformace);
 router.get("/", studioDashboardController.fetch);
+router.get("/fetchByUniqueCol", studioDashboardController.fetchByUniqueCol);
 // router.get("/:id", studioPerformanceDataController.getPerformance);
 // router.get("/getById/:id", studioPerformanceDataController.getPerformanceId);
 // router.post("/:id", studioPerformanceDataController.delete);
