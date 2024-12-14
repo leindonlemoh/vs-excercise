@@ -28,6 +28,7 @@ const db = mysql.createConnection({
 //  /users/register
 app.use("/studios", require("./routes/studios"));
 app.use("/performance", require("./routes/performance"));
+app.use("/dashboard", require("./routes/dashboard"));
 
 app.listen(PORT, () => {
   console.log(`Server started at ${process.env.DATABASE_HOST}:${PORT}`);

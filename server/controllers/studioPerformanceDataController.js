@@ -52,7 +52,7 @@ const totalCPL = budget / totalLead
     db.query(
       "INSERT INTO studio_performance_data SET ?",
       {
-studio_id :id ,
+  studio_id :parseInt(id) ,
 start_date :start_date ,
 end_date :end_date ,
 filter_type :filter_type ,

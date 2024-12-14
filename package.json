@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
  "scripts": {
-    "dev": "concurrently \"npm run dev --prefix vs-ce\" \"node server/index.js\""
+    "dev": "concurrently \"npm run dev --prefix my-next-app\" \"node server/index.js\""
   },
   "author": "",
   "license": "ISC",
